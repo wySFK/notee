@@ -278,205 +278,58 @@
 
     // calendar
     document.addEventListener('DOMContentLoaded', function () {
-        var calendarEl = document.getElementById('calendar');
-        var calendar = new FullCalendar.Calendar(calendarEl, {
-            plugins: ['interaction', 'dayGrid'],
-            defaultDate: '2024-02',
-            events: [
-                {
-                    title: 'Valentines day. Our first date and holding hands<3.',
-                    start: '2024-02-14'
-                },
-                {
-                    title: 'Second date nato nag unli wings ta og nag abreeza.',
-                    start: '2024-02-20'
-                } ,   
-                  {
-                    title: 'Our Third date sa abreeza nag manginasal og milktea.',
-                    start: '2024-02-21'
-                  },
-
-                  {
-                    title: 'Our fourth date sa abreeza nag greenwich us og milktea.',
-                    start: '2024-02-22'
-                  },
-                  {
-                    title: 'Our fifth date sa abreeza nag cinema us.',
-                    start: '2024-03-06'
-                  },
-                  {
-                    title: 'Our sixth date sa  nag abreeza og milktea.',
-                    start: '2024-03-11'
-                  },
-                  {
-                    title: 'Our seventh date sa near victoria chowking tas park.',
-                    start: '2024-03-15'
-                  },
-
-                  {
-                    title: 'Our eight date sa may Doña Vicenta Park.',
-                    start: '2024-03-19'
-                  },
-
-                  {
-                      title: 'Our ninth date sa chowking tas  Doña Vicenta Park',
-                      start: '2024-03-21'
-
-                  },
-
-                  {
-                    title: 'Our tenth date, the day of our first kiss, og atong moment we became a couple',
-                    start: '2024-04-01'
-                  },
-
-                     {
-                  title: 'Our eleventh date, Doña Vicenta Park nag order og mcdo',
-                    start: '2024-04-03'
-                },
-                {
-                 title: 'Our twelfth date, Doña Vicenta Park nangaon ta og bbq  near sa park',
-                    start: '2024-04-04'
-                },
-                {
-                 title: 'Our thirteen date, nag watch tag cine sa abreeza tapos nangaon sa may Doña Vicenta Park',
-                    start: '2024-04-09'
-                },
-                   {
-                 title: 'Our fourteen date, ni adto tag victoria nag milktea then nangaon sa chowking og nag park',
-                    start: '2024-04-11'
-                },
-
-                  {
-                 title: 'Our fifteen date, ni adto tag victoria nag eat ta dapit foodhall then ni adtog park',
-                    start: '2024-04-12'
-                },
-                 {
-                 title: 'Our sixteen date, ni kaon ta sa jabee near victortia then park',
-                    start: '2024-04-16'
-                    
-                },
-
-                {
-                 title: 'Our first montsaryy my loveeee',
-                    start: '2024-05-01'
-                    
-                },
-                {
-                 title: 'Our eighteen date my loveee celebrating our first monthsary sainyohaaa',
-                    start: '2024-05-02'
-                    
-                },
-                {
-                 title: 'Our twentieth date my loveee sainyoha dapit nakig overnight akooo',
-                    start: '2024-05-08'
-                    
-                },
-                {
-                 title: 'Our twenty-firstdate my loveee sainyoha gihapon ni uwi ako mga gabie nasaaad',
-                    start: '2024-05-09'
-                },
-
-                {
-                 title: 'Our twenty-second loveee sainyoha gihapooon',
-                    start: '2024-05-10'
-                    
-                },
-
-                {
-                 title: 'Our twenty-third loveee sainyoha gihapooon akooooo',
-                    start: '2024-05-11'
-                    
-                },
-            
-                 {
-                 title: 'Our twenty-fourth date loveee sa abreeza nag jabee us',
-                    start: '2024-05-16'
-                    
-                },
-
-                {
-                 title: 'Our twenty-fifth date loveee sa abreeza unya na meet mo mama ko',
-                    start: '2024-05-25'
-                    
-                },
-                {
-                 title: 'Our twenty-sixth date loveee sa Dmorvie tayooo heheh',
-                    start: '2024-05-29'
-                    
-                },
-                {
-                 title: 'Our twenty-seventh date loveee celebrating inyong pinning',
-                    start: '2024-05-31'
-                    
-                },
-                {
-                 title: 'Our twenty-eight date loveee sa dmorvie us unya nangaon dapit claveriaa',
-                    start: '2024-06-09'
-                    
-                },
-                 {
-                 title: 'Our twenty-nine date loveee sa may the orchard dapit bonifacio then nag Dmorvie us after.',
-                    start: '2024-06-09'
-                    
-                },
-
-                {
-                title: 'Our thirtieth date loveee sa may christianitea dapat Iñigo St tapos nag inn tayo sa may claveria love.',
-                    start: '2024-06-12'
-                    
-                },
-
-                {
-                title: 'Our fortieth date loveee celebrating atong 3rd monthsary sa dmorvie us og nag eat sa chicken ni bai',
-                    start: '2024-07-01'
-                    
-                },
-                {
-                title: 'Our fiftieth date loveee sa dmorvie us then nag jabee sa bonifacio',
-                    start: '2024-07-06'
-                    
-                },
-                {
-                title: 'Our sixtieth date loveee sa crocodile park spending time nila ate, bogyeong og bogeun ',
-                    start: '2024-07-07'
-                    
-                },
-{
-                  title: 'Our seventieth date loveee sa inyong balay spending time nila ate, bogyeong og bogeun og meeting kay kuya ',
-                    start: '2024-07-13'
-            },
-            {
-                  title: 'Our eigtheith date loveee DMORVIE tas nangukay og jollibee ',
-                    start: '2024-07-21'
-            },
-
-            {
-                 title: 'Our ninetieth date loveee DMORVIE tas nangukay og jollibee ',
-                    start: '2024-07-26'
-            },
-            {
-                 title: 'Our twentieth date loveee sa Abreeza tas nag spend time time together sainyoha love unya nakig sleep ako',
-                    start: '2024-07-29'
-            },
-                {
-                 title: 'Our 21th date loveee sa Abreeza tas nag spend time time together sainyoha love unya nakig sleep ako',
-                    start: '2024-07-30'
-            },
-
-            {
-                 title: 'Our 22th date loveee Celebrating atong 4th monthsary of our love and nag eat tas sa Ssamjang, nag simba after unya sa park',
-                    start: '2024-08-1'
-            },
-
-            
-            
-            ]
-
-            
-
-        });
-        calendar.render();
+    var calendarEl = document.getElementById('calendar');
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+        plugins: ['interaction', 'dayGrid'],
+        defaultView: 'dayGridMonth', // Make sure the view includes the date
+        events: [
+            { title: 'Valentines day. Our first date and holding hands<3.', start: '2024-02-14' },
+            { title: 'Second date nato nag unli wings ta og nag Abreeza.', start: '2024-02-20' },
+            { title: 'Our Third date sa Abreeza nag manginasal og milktea.', start: '2024-02-21' },
+            { title: 'Our fourth date sa Abreeza nag Greenwich us og milktea.', start: '2024-02-22' },
+            { title: 'Our fifth date sa Abreeza nag cinema us.', start: '2024-03-06' },
+            { title: 'Our sixth date sa nag Abreeza og milktea.', start: '2024-03-11' },
+            { title: 'Our seventh date sa near Victoria Chowking tas park.', start: '2024-03-15' },
+            { title: 'Our eighth date sa may Doña Vicenta Park.', start: '2024-03-19' },
+            { title: 'Our ninth date sa Chowking tas Doña Vicenta Park', start: '2024-03-21' },
+            { title: 'Our tenth date, the day of our first kiss, og atong moment we became a couple', start: '2024-04-01' },
+            { title: 'Our eleventh date, Doña Vicenta Park nag order og McDo', start: '2024-04-03' },
+            { title: 'Our twelfth date, Doña Vicenta Park nangaon ta og BBQ near sa park', start: '2024-04-04' },
+            { title: 'Our thirteenth date, nag watch tag cine sa Abreeza tapos nangaon sa may Doña Vicenta Park', start: '2024-04-09' },
+            { title: 'Our fourteenth date, ni adto tag Victoria nag milktea then nangaon sa Chowking og nag park', start: '2024-04-11' },
+            { title: 'Our fifteenth date, ni adto tag Victoria nag eat ta dapit food hall then ni adto sa park', start: '2024-04-12' },
+            { title: 'Our sixteenth date, ni kaon ta sa Jabee near Victoria then park', start: '2024-04-16' },
+            { title: 'Our first monthsary my loveeee', start: '2024-05-01' },
+            { title: 'Our eighteenth date my loveee celebrating our first monthsary sainyohaaa', start: '2024-05-02' },
+            { title: 'Our twentieth date my loveee sainyoha dapit nakig overnight akooo', start: '2024-05-08' },
+            { title: 'Our twenty-first date my loveee sainyoha gihapon ni uwi ako mga gabie nasaaad', start: '2024-05-09' },
+            { title: 'Our twenty-second loveee sainyoha gihapooon', start: '2024-05-10' },
+            { title: 'Our twenty-third loveee sainyoha gihapooon akooooo', start: '2024-05-11' },
+            { title: 'Our twenty-fourth date loveee sa Abreeza nag Jabee us', start: '2024-05-16' },
+            { title: 'Our twenty-fifth date loveee sa Abreeza unya na meet mo mama ko', start: '2024-05-25' },
+            { title: 'Our twenty-sixth date loveee sa Dmorvie tayooo heheh', start: '2024-05-29' },
+            { title: 'Our twenty-seventh date loveee celebrating inyong pinning', start: '2024-05-31' },
+            { title: 'Our twenty-eighth date loveee sa Dmorvie us unya nangaon dapit Claveriaa', start: '2024-06-09' },
+            { title: 'Our twenty-ninth date loveee sa may The Orchard dapit Bonifacio then nag Dmorvie us after.', start: '2024-06-09' },
+            { title: 'Our thirtieth date loveee sa may Christianitea dapit Iñigo St tapos nag inn tayo sa may Claveria love.', start: '2024-06-12' },
+            { title: 'Our fortieth date loveee celebrating atong 3rd monthsary sa Dmorvie us og nag eat sa Chicken ni Bai', start: '2024-07-01' },
+            { title: 'Our fiftieth date loveee sa Dmorvie us then nag Jabee sa Bonifacio', start: '2024-07-06' },
+            { title: 'Our sixtieth date loveee sa Crocodile Park spending time nila Ate, Bogyeong og Bogeun', start: '2024-07-07' },
+            { title: 'Our seventieth date loveee sa inyong balay spending time nila Ate, Bogyeong og Bogeun og meeting kay Kuya', start: '2024-07-13' },
+            { title: 'Our eightieth date loveee Dmorvie tas nangukay og Jollibee', start: '2024-07-21' },
+            { title: 'Our ninetieth date loveee Dmorvie tas nangukay og Jollibee', start: '2024-07-26' },
+            { title: 'Our twentieth date loveee sa Abreeza tas nag spend time together sainyoha love unya nakig sleep ako', start: '2024-07-29' },
+            { title: 'Our twenty-first date loveee sa Abreeza tas nag spend time together sainyoha love unya nakig sleep ako', start: '2024-07-30' },
+            { title: 'Our twenty-second date loveee celebrating atong 4th monthsary of our love and nag eat tas sa Ssamjang, nag simba after unya sa park', start: '2024-08-01' }
+        ]
     });
+    calendar.render();
+});
+
+            
+            
+          
+     
 </script>
 
 </body></html>
