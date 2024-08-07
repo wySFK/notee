@@ -277,11 +277,11 @@
     }
 
     // calendar
-    document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
     var calendarEl = document.getElementById('calendar');
     var calendar = new FullCalendar.Calendar(calendarEl, {
         plugins: ['interaction', 'dayGrid'],
-        defaultView: 'dayGridMonth', // Make sure the view includes the date
+        initialView: 'dayGridMonth', // Changed defaultView to initialView
         events: [
             { title: 'Valentines day. Our first date and holding hands<3.', start: '2024-02-14' },
             { title: 'Second date nato nag unli wings ta og nag Abreeza.', start: '2024-02-20' },
@@ -320,7 +320,8 @@
             { title: 'Our ninetieth date loveee Dmorvie tas nangukay og Jollibee', start: '2024-07-26' },
             { title: 'Our twentieth date loveee sa Abreeza tas nag spend time together sainyoha love unya nakig sleep ako', start: '2024-07-29' },
             { title: 'Our twenty-first date loveee sa Abreeza tas nag spend time together sainyoha love unya nakig sleep ako', start: '2024-07-30' },
-            { title: 'Our twenty-second date loveee celebrating atong 4th monthsary of our love and nag eat tas sa Ssamjang, nag simba after unya sa park', start: '2024-08-01' }
+            { title: 'Our twenty-second date loveee celebrating atong 4th monthsary of our love and nag eat tas sa Ssamjang, nag simba after unya sa park', start: '2024-08-01' },
+            { title: 'Our twenty-third date loveee celebrating akong birthday sa vikings SM lanang then ni adto tag Palm Drivers Inn tapos spend alot of time didtoa', start: '2024-08-06' }
         ]
     });
     calendar.render();
